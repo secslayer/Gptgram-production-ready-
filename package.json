@@ -1,0 +1,37 @@
+{
+  "name": "gptgram",
+  "version": "1.0.0",
+  "description": "A2A DAG Orchestration Platform",
+  "scripts": {
+    "start": "bash start.sh",
+    "dev:backend": "cd backend && uvicorn main:app --reload",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:build": "docker-compose build",
+    "demo:setup": "cd backend && python ../demo/setup_demo.py",
+    "test:backend": "cd backend && pytest",
+    "test:frontend": "cd frontend && npm test",
+    "clean": "docker-compose down -v && rm -rf backend/__pycache__ frontend/node_modules frontend/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/gptgram.git"
+  },
+  "keywords": [
+    "a2a",
+    "agents",
+    "orchestration",
+    "dag",
+    "workflow",
+    "n8n",
+    "ai"
+  ],
+  "author": "GPTGram Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
