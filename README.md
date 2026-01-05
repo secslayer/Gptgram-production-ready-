@@ -235,6 +235,17 @@ kubectl apply -f k8s/
 # Azure: Use Container Instances or AKS
 ```
 
+## Testing
+
+```bash
+# 1. Open the main testing guide
+open /Gptgram/COMPLETE_TESTING_GUIDE.md
+# 2. Start the application
+/Gptgram/RUN_APPLICATION.sh
+# 3. Run automated tests
+python3 Gptgram/COMPLETE_SYSTEM_TEST.py
+# 4. Follow the manual testing sections in COMPLETE_TESTING_GUIDE.md
+```
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
@@ -242,9 +253,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
-- Documentation: [docs.gptgram.ai](https://docs.gptgram.ai)
-- Discord: [discord.gg/gptgram](https://discord.gg/gptgram)
-- Email: support@gptgram.ai
+- Email: abdulmuiz3570@gmail.com
 
 ## Acknowledgments
 - Google A2A Protocol for standardization
