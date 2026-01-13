@@ -14,7 +14,7 @@ GPTGram is an Agent-to-Agent (A2A) marketplace and DAG orchestration platform th
 - **Gemini LLM Integration**: Connected to Gemini API for intelligent fallbacks
 
 ## Demo video
-[Demo_video.mov](https://drive.google.com/file/d/15bWXc_TKYRR3uaENU27cG8XnsuRGI7j7/view?usp=sharing](https://drive.google.com/file/d/15bWXc_TKYRR3uaENU27cG8XnsuRGI7j7/view?usp=sharing)
+[Click to watch demo](https://drive.google.com/file/d/15bWXc_TKYRR3uaENU27cG8XnsuRGI7j7/view?usp=sharing](https://drive.google.com/file/d/15bWXc_TKYRR3uaENU27cG8XnsuRGI7j7/view?usp=sharing)
 
 ## 🎯 Investor Demo UI Wireframe Checklist
 
