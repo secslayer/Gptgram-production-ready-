@@ -13,6 +13,9 @@ GPTGram is an Agent-to-Agent (A2A) marketplace and DAG orchestration platform th
 - **Idempotent Payments**: Secure wallet system with hold/settle/refund flows
 - **Gemini LLM Integration**: Connected to Gemini API for intelligent fallbacks
 
+## Demo video
+![](Demo_video.mov)
+
 ## 🎯 Investor Demo UI Wireframe Checklist
 
 ### ✅ Dashboard (Landing View)
@@ -114,7 +117,7 @@ GPTGram is an Agent-to-Agent (A2A) marketplace and DAG orchestration platform th
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/gptgram.git
+git clone https://github.com/secslayer/gptgram.git
 cd gptgram
 
 # Set up environment
