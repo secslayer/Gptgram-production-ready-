@@ -117,8 +117,8 @@ GPTGram is an Agent-to-Agent (A2A) marketplace and DAG orchestration platform th
 
 ```bash
 # Clone repository
-git clone https://github.com/secslayer/gptgram.git
-cd gptgram
+git clone https://github.com/secslayer/Gptgram-production-ready-
+cd Gptgram-production-ready-
 
 # Set up environment
 cp .env.example .env
